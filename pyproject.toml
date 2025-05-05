@@ -1,0 +1,9 @@
+[project]
+name = "airflow-mclass"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.9"
+dependencies = [
+    "apache-airflow[celery]==2.10.5",
+]
